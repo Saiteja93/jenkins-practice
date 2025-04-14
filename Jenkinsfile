@@ -23,7 +23,7 @@ pipeline {
             }
         }
     }
-    }
+    
 
     post {
         always {
@@ -36,4 +36,5 @@ pipeline {
             echo "this section runs when pipeline failed"
         }
     }
+}
         
