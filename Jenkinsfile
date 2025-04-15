@@ -9,13 +9,13 @@ pipeline {
      stages {
         stage('Build') {
             steps {
-                sh 'echo This is Build'
+                sh 'echo This is a Build'
                 //sh 'sleep 10'
             }
         }
         stage('Test') {
             steps {
-                sh 'echo This is test'
+                sh 'echo This is a test'
               
             }
         }
